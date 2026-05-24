@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/social-media-jojo/',
+  base: '/social-media-zuno/',
   build: {
     outDir: 'docs'
   },
