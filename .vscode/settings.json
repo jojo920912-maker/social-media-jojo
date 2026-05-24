@@ -1,0 +1,16 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "cSpell.words": [
+    "axios",
+    "ionicons",
+    "Regist",
+    "vicons"
+  ]
+}

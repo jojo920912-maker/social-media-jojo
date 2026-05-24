@@ -1,0 +1,22 @@
+{
+  "name": "2026-social-media",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "npm run seed && concurrently -n BE,FE -c blue,green \"cd backend && npx tsx src/index.ts\" \"cd frontend && npx vite\"",
+    "seed": "npm run seed --prefix backend",
+    "test": "npm test --prefix backend"
+  },
+  "devDependencies": {
+    "@vicons/ionicons5": "^0.13.0",
+    "concurrently": "^9.1.2",
+    "naive-ui": "^2.44.1",
+    "vfonts": "^0.0.3"
+  },
+  "dependencies": {
+    "axios": "^1.15.0"
+  }
+}
