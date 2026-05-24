@@ -29,6 +29,7 @@ export function createMemoryDb(): DbContext {
 }
 
 const defaultCtx = createDb()
-export const db = defaultCtx.db
-export const sqlite = defaultCtx.sqlite
 export type AppDatabase = DbContext['db']
+export const db: AppDatabase = defaultCtx.db
+export const sqlite: InstanceType<typeof Database> = defaultCtx.sqlite
+
