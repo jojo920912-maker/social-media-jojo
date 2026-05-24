@@ -1,0 +1,1 @@
+import{P as e,d as t,m as n,t as r}from"./_plugin-vue_export-helper-B3a6DvCD.js";var i={},a={class:`about`};function o(r,i){return e(),n(`div`,a,[...i[0]||=[t(`h1`,null,`This is an about page`,-1)]])}var s=r(i,[[`render`,o]]);export{s as default};
