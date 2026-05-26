@@ -27,6 +27,8 @@
 
 ## 線上 Demo
 
+🔗 [點此體驗](https://jojo920912-maker.github.io/social-media-zuno/)
+
 ⚠️ 首次載入可能需要等待約 30 秒，為 Render 免費方案喚醒時間，請稍候。
 
 ## 測試帳號
@@ -51,7 +53,7 @@ npm start
 
 ```
 src/
-├── views/        # 頁面元件
+├── pages/        # 頁面元件
 ├── components/   # 共用元件
 ├── router/       # 路由設定
 ├── api/          # API 串接
